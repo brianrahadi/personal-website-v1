@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="container">
+        <section class="section-1 center" id="section-1">
+            <h1 class="section-1-heading">Student</h1>
+            <img class="person-img" src="images/brian-rahadi.png" alt="">
+            <h5 class="person-name">Brian Rahadi</h5>
+            <a href="#section-3" class="section-1-btn">Projects</a>
+        </section>
+
+
+    <nav class="navbar center">
+      <a href="#section-1" class="navbar-link">Home</a>
+      <a href="#section-2" class="navbar-link">About</a>
+
+      <a href="#section-3" class="navbar-link">Portofolio</a>
+      <a href="#section-4" class="navbar-link">Contact</a>
+    </nav>
+
+    <section class="section-2" id="section-2">
+      <h1 class="section-heading section-2-heading">About Me</h1>
+      <div class="faq-container">
+        <div class="faq active">
+          <h3 class="faq-title">
+            Who are you?
+          </h3>
+  
+          <p class="faq-text">
+            My name is Brian Rahadi! I am currently a first-year studying computer science in Langara College, Vancouver, British Columbia.
+          </p>
+  
+          <button class="faq-toggle" class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">
+            Any hobbies?
+          </h3>
+            
+          <p class="faq-text">
+            Hmm... I would say Anime is my number one time-waster. Riding bike is apparently my newly-found hobby. Other than that, I am currently trying to read more books if I do have the time and motivation.
+          </p>
+  
+          <button class="faq-toggle" class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">
+            What are you planning to do in the future?
+          </h3>
+  
+          <p class="faq-text">
+            Probably just aiming to be a general software engineer at the moment. I really like the idea of application like notion and goodnotes. Virtual reality is also so interesting. I can't wait to see how it will become 10-15 years later.
+          </p>
+  
+          <button class="faq-toggle" class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="faq">
+          <h3 class="faq-title">
+            Favourite books?
+          </h3>
+  
+          <p class="faq-text">
+            <a href="https://www.goodreads.com/book/show/68025.The_7_Habits_of_Highly_Effective_Teens_Workbook" target="_blank">The 7 habits of highly effective teens</a>, <a href="https://www.goodreads.com/da/book/show/27985224-deep-work" target="_blank">Deep work</a>, and <a href="https://www.navalmanack.com/" target="_blank">The Almanack of Naval Ravikant</a> are the three most life-changing books for me.
+          </p>
+  
+          <button class="faq-toggle" class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+      <div class="services">
+        <div class="service">
+          <i class="fas fa-fist-raised"></i>
+          <h2 class="service-heading">Resistant</h2>
+        </div>
+
+        <div class="service">
+          <i class="fas fa-fan"></i>
+          <h2 class="service-heading">Content</h2>
+        </div>
+
+        <div class="service">
+          <i class="fas fa-heart"></i>
+          <h2 class="service-heading">Caring</h2>
+        </div>
+
+        <div class="service">
+          <i class="fas fa-rocket"></i>
+          <h2 class="service-heading">I like rockets</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 -->
+    <section class="section-3" id="section-3">
+      <h1 class="section-heading section-3-heading">
+        My Projects
+      </h1>
+      <div class="projects-wrapper center">
+        <div class="project">
+          <div class="project-text">
+            <h2 class="project-name">Movie App</h2>
+          <h4 class="project-technologies">
+            HTML / CSS / JS
+          </h4>
+        </div>
+        <img class="project-img" class="project-img" src="images/movie-app.png">
+        <a href="https://brianrahadi.github.io/50projects50days/movie-app/" class="project-link" target="_blank">Go to Website</a>
+        </div>
+
+      </div>
+    </section>
+    <!-- section 3 end -->
+
+    <!-- section 4 -->
+    <section class="section-4" id="section-4">
+      
+      <h1 class="section-heading section-4-heading">Contact Me</h1>
+
+        
+      <form class="contact-form" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xknkjlbz" method="post">
+
+          <input type="text" name="name" id="full-name" placeholder="Name" required="">
+          <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
+          <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        <input class="contact-form-btn" type="submit" value="Submit">
+      </form>
+      
+      </form>
+
+    </section>
+    <!-- section 4 end -->
+
+    <!-- section 5 -->
+    <footer class="section-5 center" id="section-5">
+      <div class="social-media">
+        <a href="https://github.com/brianrahadi" class="social-media-link" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        
+        <a href="https://www.instagram.com/brianrahadi/" class="social-media-link" target="_blank">
+          <i class="fab fa-instagram-square"></i>
+        </a>
+        
+
+        <a href="https://www.linkedin.com/in/brian-rahadi-25bb33197/" class="social-media-link" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        
+
+      </div>
+
+      <p class="copyright">
+        Copyright &copy; Brian Rahadi. All Rights Reserved
+      </p>
+    </footer>
+
+    <!-- section 5 end -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
