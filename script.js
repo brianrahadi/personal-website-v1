@@ -34,7 +34,3 @@ const mainFunc = () => {
 }
 
 mainFunc();
-
-window.addEventListener('resize', () => {
-    window.location.reload();
-})
