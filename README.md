@@ -1,5 +1,5 @@
 # brianrahadi.github.io
 
-My personal website that I build with HTML, CSS, and Vanilla JavaScript.
+My first personal website built with HTML, CSS, and Vanilla JavaScript (deprecated)
 
-https://brianrahadi.github.io/
+https://brianrahadi.github.io/personal-website-v1/
